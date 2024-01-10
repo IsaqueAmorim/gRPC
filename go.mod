@@ -1,18 +1,18 @@
-module github.com/devfullcycle/14-gRPC
+module github.com/IsaqueAmorim/gRPC
 
-go 1.18
+go 1.21.1
 
 require (
-	github.com/google/uuid v1.3.0
-	github.com/mattn/go-sqlite3 v1.14.16
-	google.golang.org/grpc v1.50.1
-	google.golang.org/protobuf v1.28.1
+	github.com/google/uuid v1.3.1
+	google.golang.org/grpc v1.60.1
+	google.golang.org/protobuf v1.32.0
 )
 
 require (
-	github.com/golang/protobuf v1.5.2 // indirect
-	golang.org/x/net v0.0.0-20201021035429-f5854403a974 // indirect
-	golang.org/x/sys v0.0.0-20210119212857-b64e53b001e4 // indirect
-	golang.org/x/text v0.3.3 // indirect
-	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013 // indirect
+	github.com/golang/protobuf v1.5.3 // indirect
+	github.com/mattn/go-sqlite3 v1.14.19 // indirect
+	golang.org/x/net v0.16.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
+	golang.org/x/text v0.13.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20231002182017-d307bd883b97 // indirect
 )
